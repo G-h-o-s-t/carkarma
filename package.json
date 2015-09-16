@@ -1,11 +1,12 @@
 {
-  "name": "carkarma1",
+  "name": "carkarma",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "ejs": "~0.8.4",
+    "gm": "^1.18.1",
     "grunt": "0.4.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-coffee": "~0.10.1",
@@ -21,7 +22,8 @@
     "include-all": "~0.1.3",
     "rc": "~0.5.0",
     "sails": "~0.11.0",
-    "sails-disk": "~0.10.0"
+    "sails-disk": "~0.10.0",
+    "sails-mongo": "^0.11.4"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -30,7 +32,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ghost/carkarma1.git"
+    "url": "git://github.com/ghost/carkarma.git"
   },
   "author": "ghost",
   "license": ""
