@@ -1,3 +1,3 @@
 # carkarma1
 
-a [Sails](http://sailsjs.org) application
+a [Car Karma] (http://carkarma.ru) web site 
