@@ -1,0 +1,30 @@
+<style type="text/css">
+
+</style>
+<div class="wrapper">
+    <h1>Create new user</h1>
+
+    <form action="/User" method="post">
+        <div class="line">
+            <label for="name">Login Name:</label>
+            <input type="text" id="name" name="name" palceholder="Vasya"/>
+        </div>
+        <div class="line">
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" palceholder="password"/>
+        </div>
+        <div class="line">
+            <label for="email">e-mail:</label>
+            <input type="text" id="email" name="email" palceholder="e-mail"/>
+        </div>
+        <div class="line">
+            <label for="type">User type:</label>
+            <select name="type" id="type">
+                <option value="user" selected="selected">User</option>
+                <option value="moderator">Moderator</option>
+                <option value="admin">Admin</option>
+            </select>
+        </div>
+        <button type="submit">Create new user</button>
+    </form>
+</div>

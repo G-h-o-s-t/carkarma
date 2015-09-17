@@ -1,17 +1,11 @@
-/**
- * UserController
- *
- * @description :: Server-side logic for managing users
- * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
- */
+// api/controllers/UserController.js
 
-module.exports = {
+var _ = require('lodash');
+var _super = require('sails-permissions/api/controllers/UserController');
 
-    list: function(req, res) {
-       console.log( req.session ) ;
+_.merge(exports, _super);
+_.merge(exports, {
 
-       return res.send(200, 'Welcome ))');
-    }
+  // Extend with custom logic here by adding additional fields, methods, etc.
 
-};
-
+});
