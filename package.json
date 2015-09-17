@@ -5,6 +5,8 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "async": "^1.4.2",
+    "connect-mongo": "^0.8.2",
     "ejs": "~0.8.4",
     "gm": "^1.18.1",
     "grunt": "0.4.2",

@@ -6,6 +6,12 @@
  */
 
 module.exports = {
-	
+
+    list: function(req, res) {
+       console.log( req.session ) ;
+
+       return res.send(200, 'Welcome ))');
+    }
+
 };
 
